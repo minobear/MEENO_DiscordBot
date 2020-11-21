@@ -4,7 +4,6 @@ import me.mino.commands.Command;
 import me.mino.commands.TicTacToeCloseCommand;
 import me.mino.commands.TicTacToeCommand;
 import me.mino.listener.CommandListener;
-import me.mino.listener.MessageListener;
 import me.mino.listener.TicTacToeListener;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -28,7 +27,7 @@ public class DiscordBot {
 
     private void buildBot(){
         try {
-            jda = JDABuilder.createDefault("MzY2NDc1MzQzNjA1MDA2MzM2.WdnIwg.WHgmdiHNhCQGpGYH7k1gMw3Kw-c").build();
+            jda = JDABuilder.createDefault("MzY2NDc1MzQzBjA1MDA2MzM2.WdnIwg.i4xJrouOEUqBOtrAZnjQnCF3jPs").build();
             System.out.println("Discord bot is log on "+jda.getSelfUser().getAsTag());
         } catch (LoginException e) {
             e.printStackTrace();
