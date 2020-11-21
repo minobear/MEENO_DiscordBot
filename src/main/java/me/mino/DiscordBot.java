@@ -38,7 +38,6 @@ public class DiscordBot {
     private void registerListeners(){
         jda.addEventListener(new CommandListener());
         jda.addEventListener(new TicTacToeListener());
-        jda.addEventListener(new MessageListener());
     }
 
     private void registerCommands(){
